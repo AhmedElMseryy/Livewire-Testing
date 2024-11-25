@@ -18,7 +18,9 @@
      @livewireStyles
     </head>
     <body class="antialiased">
-        @livewire('test-action')
+        @livewire('event-sender')
+        @livewire('event-listener')
+        {{-- @livewire('test-action') --}}
         {{-- @livewire('test-post' , ['name'=>'Ahmed']) --}}
 
         @livewireScripts
