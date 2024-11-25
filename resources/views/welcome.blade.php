@@ -22,8 +22,10 @@
         @livewire('event-listener') --}}
         {{-- @livewire('test-action') --}}
         {{-- @livewire('test-post' , ['name'=>'Ahmed']) --}}
+        {{-- @livewire('try-hooks') --}}
 
-        @livewire('try-hooks')
+        @livewire('parent-component')
+        
         @livewireScripts
     </body>
 </html>
