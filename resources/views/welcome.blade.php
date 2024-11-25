@@ -18,11 +18,12 @@
      @livewireStyles
     </head>
     <body class="antialiased">
-        @livewire('event-sender')
-        @livewire('event-listener')
+        {{-- @livewire('event-sender')
+        @livewire('event-listener') --}}
         {{-- @livewire('test-action') --}}
         {{-- @livewire('test-post' , ['name'=>'Ahmed']) --}}
 
+        @livewire('try-hooks')
         @livewireScripts
     </body>
 </html>
