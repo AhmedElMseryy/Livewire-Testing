@@ -29,7 +29,9 @@
 
         {{-- @livewire('parent-component') --}}
 
-        @livewire('validation-component')
+        {{-- @livewire('validation-component') --}}
+
+        @livewire('files-component')
         
         @livewireScripts
 
