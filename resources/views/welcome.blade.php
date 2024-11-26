@@ -31,7 +31,9 @@
 
         {{-- @livewire('validation-component') --}}
 
-        @livewire('files-component')
+        {{-- @livewire('files-component') --}}
+
+        @livewire('search-component')
         
         @livewireScripts
 
