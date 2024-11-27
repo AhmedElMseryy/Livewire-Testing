@@ -35,7 +35,9 @@
 
         {{-- @livewire('search-component') --}}
 
-        @livewire('flash-component')
+        {{-- @livewire('flash-component') --}}
+
+        @livewire('loading-component')
         
         @livewireScripts
 
